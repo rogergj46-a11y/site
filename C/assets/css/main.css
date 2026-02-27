@@ -1,0 +1,53 @@
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.accent {
+  color: #1e90ff;
+}
+
+#nav a {
+  color: #1e90ff;
+}
+
+#nav a:hover {
+  color: #4aa8ff;
+}
+
+.panel {
+  background: #1b1b1b;
+  border-radius: 8px;
+  padding: 3em;
+}
+
+.jumplink img {
+  width: 260px;
+  border-radius: 8px;
+}
+
+.video-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  padding-top: 1em;
+}
+
+.video-scroll img {
+  width: 200px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.video-scroll img:hover {
+  border-color: #1e90ff;
+  transform: scale(1.05);
+}
+
+.footer-logo {
+  width: 120px;
+  margin-top: 2em;
+}
