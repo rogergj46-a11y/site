@@ -29,6 +29,44 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+
+
+
+
+/* Video gallery */
+#videos iframe {
+  border: none;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.video-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  padding-top: 1.5em;
+}
+
+.video-scroll img {
+  width: 200px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.video-scroll img:hover {
+  transform: scale(1.05);
+  border-color: #1e90ff;
+}
+
+
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -2189,29 +2227,3 @@ input, select, textarea {
 			}
 
 		}
-/* Video gallery */
-#videos iframe {
-  border: none;
-  border-radius: 8px;
-  max-width: 100%;
-}
-
-.video-scroll {
-  display: flex;
-  overflow-x: auto;
-  gap: 1em;
-  padding-top: 1.5em;
-}
-
-.video-scroll img {
-  width: 200px;
-  border-radius: 6px;
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.video-scroll img:hover {
-  transform: scale(1.05);
-  border-color: #1e90ff;
-}
